@@ -42,7 +42,7 @@ if should_continue == "yes" or should_continue == "y":
 
     print("Publishing to NPM...")
 
-    success = os.system("npm publish") == 0
+    success = os.system("npm publish --access=public") == 0
 
     if success:
         print("Publishing completed successfully!")
