@@ -1,0 +1,43 @@
+{
+  "name": "quickinstall",
+  "version": "1.0.0",
+  "description": "A CLI for quickly installing packages, provides support for NPM, Yarn and PNPM",
+  "main": "bin/index.ts",
+  "scripts": {
+    "build": "python scripts/build.py",
+    "prerun": "npm run build",
+    "run": "quickinstall",
+    "predeploy": "npm run build",
+    "deploy": "python scripts/deploy.py"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yoshiboi18303/quickinstall.git"
+  },
+  "keywords": [
+    "cli",
+    "npm",
+    "yarn",
+    "pnpm",
+    "quickinstall"
+  ],
+  "author": "Yoshiboi18303",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Yoshiboi18303/quickinstall/issues"
+  },
+  "homepage": "https://github.com/Yoshiboi18303/quickinstall#readme",
+  "bin": {
+    "quickinstall": "bin/index.js"
+  },
+  "dependencies": {
+    "@clack/prompts": "^0.6.3",
+    "picocolors": "^1.0.0",
+    "yargs": "^17.7.1"
+  },
+  "devDependencies": {
+    "@types/node": "^18.15.11",
+    "@types/yargs": "^17.0.24",
+    "typescript": "^5.0.4"
+  }
+}
