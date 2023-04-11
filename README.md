@@ -3,6 +3,7 @@
 A CLI for quickly installing packages, provides support for NPM, Yarn and PNPM!
 
 ![Demo GIF](https://cdn.discordapp.com/attachments/1028104425371340851/1095402827888730112/quickinstall_Demo_GIF.gif)
+![Demo 2 GIF](https://cdn.discordapp.com/attachments/1028104425371340851/1095412945338507285/quickinstall_Demo_2.gif)
 
 ---
 
