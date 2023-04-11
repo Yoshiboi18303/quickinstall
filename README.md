@@ -6,6 +6,12 @@ _(gif coming soon)_
 
 ---
 
+## Note to all
+
+This CLI is **NOT** on npm yet, I'm locked out of my account, so... sorry for the disappointment...
+
+---
+
 ## Installation
 
 You can install `quickinstall` to your system by running this command:
