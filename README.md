@@ -11,7 +11,7 @@ _(gif coming soon)_
 You can install `quickinstall` to your system by running this command:
 
 ```powershell
-npm i -g quickinstall
+npm i -g @yoshiboi18303/quickinstall
 ```
 
 After that just run:

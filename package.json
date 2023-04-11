@@ -1,6 +1,6 @@
 {
   "name": "@yoshiboi18303/quickinstall",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A CLI for quickly installing packages, provides support for NPM, Yarn and PNPM",
   "main": "bin/index.ts",
   "scripts": {
